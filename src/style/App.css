@@ -1,0 +1,37 @@
+.App-title {
+  font-size: 3rem;
+}
+
+#chooseList{
+  list-style-type:none;
+  display: inline-block;
+}
+
+#chooseList li{
+  text-align: center;
+  display: inline-block;
+}
+
+.chooseColor img{
+  height: 50px;
+  width: 50px;
+}
+
+.chooseColor img:hover {
+opacity: .5;
+transition: 0.3s ease;
+}
+
+#priceInfo {
+  margin:5% 0;
+  font-size: 2rem;
+  border: 1px solid black;
+}
+
+@media(min-width: 756px){
+  .btn{
+    margin-bottom: 15px;
+    margin-left: 30px;
+  }
+}
+
