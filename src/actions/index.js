@@ -1,9 +1,15 @@
-export const GET_COLOR = 'GET_COLOR';
+export const PRODUCT_SELECT = 'PRODUCT_SELECT';
 
-export function getColor(color) {
-  console.log(color)
+export default function productSelect(product, color, price, name) {
+  let productURL = "images/" + color + ".jpg";
   return {
-    type: GET_COLOR,
-    payload: { color: color }
+    type: PRODUCT_SELECT,
+    payload: {
+      products: product,
+      color: color,
+      price: price,
+      name: name,
+      productURL: productURL
+    }
   };
 }

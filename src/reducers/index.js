@@ -1,6 +1,11 @@
 import { combineReducers } from 'redux';
-import ColorReducer from './reducer_color';
 
-const rootReducer = combineReducers({color: ColorReducer})
+import ProductSelect from './reducer_product_selection';
+import Product from './reducer_products';
+
+const rootReducer = combineReducers({
+  select: ProductSelect,
+  products: Product
+})
 
 export default rootReducer;

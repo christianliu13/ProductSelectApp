@@ -2,36 +2,35 @@
   font-size: 3rem;
 }
 
-#chooseList{
-  list-style-type:none;
+#chooseList {
+  list-style-type: none;
   display: inline-block;
 }
 
-#chooseList li{
+#chooseList li {
   text-align: center;
   display: inline-block;
 }
 
-.chooseColor img{
+.chooseColor img {
   height: 50px;
   width: 50px;
 }
 
 .chooseColor img:hover {
-opacity: .5;
-transition: 0.3s ease;
+  opacity: .5;
+  transition: 0.3s ease;
+  border: 1px gray solid;
 }
 
 #priceInfo {
-  margin:5% 0;
+  margin: 5% 0;
   font-size: 2rem;
   border: 1px solid black;
 }
 
-@media(min-width: 756px){
-  .btn{
-    margin-bottom: 15px;
-    margin-left: 30px;
-  }
+.btn {
+  margin-top: 15px;
 }
 
+@media(min-width: 756px) {}
