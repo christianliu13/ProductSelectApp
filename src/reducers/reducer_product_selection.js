@@ -5,7 +5,7 @@ const initialState = {
   color: "normal",
   price: "Very Expensive",
   name: "Premium Normal Cat",
-  productURL:"images/normal.jpg"
+  productURL:"/images/normal.jpg"
 }
 
 export default function (state = initialState, action) {
